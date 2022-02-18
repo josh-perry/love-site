@@ -3,19 +3,19 @@
 @font-face {
 	font-family: 'Quicksand';
 	font-weight: 700;
-	src: url('style/fonts/quicksand-bold.woff');
+	src: url('fonts/quicksand-bold.woff');
 }
 
 @font-face {
 	font-family: 'Quicksand';
 	font-weight: 400;
-	src: url('style/fonts/quicksand-regular.woff');
+	src: url('fonts/quicksand-regular.woff');
 }
 
 /* Sofia Pro Light */
 @font-face {
 	font-family: 'Sofia Pro';
-	src: url('style/fonts/sofia-pro-light.woff');
+	src: url('fonts/sofia-pro-light.woff');
 	font-weight: normal;
 }
 
@@ -83,7 +83,7 @@ main {
 	display: block;
 	padding: 1em;
 
-	background: url("style/logo.png") no-repeat 1.5em 1em;
+	background: url("logo.png") no-repeat 1.5em 1em;
 	background-size: 200px auto;
 	box-sizing: border-box;
 }
@@ -147,28 +147,28 @@ section#games > h2 {
 
 section#features > section#opensource > h2 {
 	padding-left: 80px;
-	background-image: url("style/icons/bucket.png");
+	background-image: url("icons/bucket.png");
 }
 
 section#features > section#community > h2 {
 	padding-left: 40px;
-	background-image: url("style/icons/birds.png");
+	background-image: url("icons/birds.png");
 }
 
 section#examples > h2 {
 	padding-left: 45px;
-	background-image: url("style/icons/hydrogen.png");
+	background-image: url("icons/hydrogen.png");
 }
 
 section#games > h2 {
 	padding-left: 45px;
-	background-image: url("style/icons/cartridge.png");
+	background-image: url("icons/cartridge.png");
 }
 
 /* Bluebox */
 
 section#download, section#examples dd {
-	background: url(style/box.svg);
+	background: url(box.svg);
 	padding: 1em 2em 1em 2em;
 	background-size: 100% 100%;
 	margin-bottom: 1em;
@@ -204,10 +204,10 @@ section#download a {
 	text-decoration: none;
 }
 
-#windows { background-image: url("style/icons/windows.png"); }
-#osx { background-image: url("style/icons/apple.png"); }
-#ubuntu { background-image: url("style/icons/ubuntu.png"); }
-#other { background-image: url("style/icons/heart.png"); }
+#windows { background-image: url("icons/windows.png"); }
+#osx { background-image: url("icons/apple.png"); }
+#ubuntu { background-image: url("icons/ubuntu.png"); }
+#other { background-image: url("icons/heart.png"); }
 
 section#download dt {
 	font-weight: bold;
@@ -322,7 +322,7 @@ footer > section > div:last-child {
 
 
 #moon {
-	background-image: url(style/moon.png);
+	background-image: url(moon.png);
 	background-repeat: no-repeat;
 	background-position: center top;
 	background-size: 80% auto;
@@ -415,7 +415,7 @@ footer > section > div:last-child {
 	#debug::after { content: "600px"; }
 
 	main {
-		background-image: url("style/logo_h.png");
+		background-image: url("logo_h.png");
 		background-repeat:  no-repeat;
 		background-position: 50% 4em;
 		background-size: 250px auto;
@@ -554,7 +554,7 @@ footer > section > div:last-child {
 }
 
 #germanunkol:target {
-	background-image: url(style/smallheart.png);
+	background-image: url(smallheart.png);
 
 	animation-duration: 1s;
 	animation-name: slide;
